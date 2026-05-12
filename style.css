@@ -1,0 +1,1209 @@
+/* ================================
+   GOOGLE FONTS
+================================ */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet'); */
+
+
+/* ================================
+   RESET
+================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* ================================
+   BODY STYLE
+================================ */
+body {
+    font-family: 'Cormorant Garamond', serif;
+    height: 100vh;
+}
+
+body.lock-scroll {
+    overflow: hidden;
+}
+
+
+
+/* ================================
+   HERO SECTION
+================================ */
+.hero {
+    min-height: 100vh;
+    background: url('img/PAYD2145.webp') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 30%;
+    font-weight: bold;
+}
+
+.home-section {
+    position: relative;
+    min-height: 100vh;
+    height: auto;
+    overflow: hidden;
+    background: url('img/PAYD2176.webp') center/cover no-repeat;
+    background-attachment: fixed;
+    padding: 80px 0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero-content {
+
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+.top-text {
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.wedding-text {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.nama {
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 60px;
+    margin-bottom: 10px;
+
+}
+
+.tanggal {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.kepada {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.quote-ayat {
+        /* Tambahkan jarak dari atas (misal dari 270px ke 450px atau lebih) */
+        margin-top: 480px !important; 
+        font-size: 18px;
+        line-height: 1.8;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Biar teks putih tetap tajam */
+    }
+
+    .quote-info {
+        margin-top: 15px !important;
+        font-size: 32px;
+    }
+
+/* =========================
+   TANGGAL + GARIS
+========================= */
+
+.tanggal-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    background-color: white;
+}
+
+.tanggal-home {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/* ================================
+   BUTTON STYLE
+================================ */
+.btn-undangan {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s ease;
+
+}
+
+.btn-undangan:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+/* ================================
+   BRIDE
+================================ */
+.bride .card {
+    height: 100%;
+    object-fit: cover;
+    background: transparent;
+
+    box-shadow: none;
+}
+
+.card-img-top {
+    width: 240px;
+    height: 290px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 5px;
+}
+
+.card-body {
+    background: transparent;
+}
+
+.card-title {
+    font-size: 35px;
+    font-family: 'Great Vibes', 'cursive';
+    color: #fff;
+}
+
+.card-text {
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+}
+
+/* ================================
+COUNTDOWN
+================================ */
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.time-box {
+    text-align: center;
+}
+
+.time-box span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.time-box p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* ================================
+WEDDING EVENT
+================================ */
+.wedding .card {
+    width: 85%;
+    max-width: 320px;
+    margin: 20px auto;
+    padding: 25px 20px;
+
+    background: #ffffff;
+    border-radius: 20px;
+
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Cinzel', serif;
+}
+
+.card .title {
+    font-weight: 550;
+    font-size: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    font-family: 'Great Vibes', 'cursive';
+}
+
+.card .date {
+    /* font-weight: 550; */
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.card .time {
+    /* font-weight: 550; */
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.card .label {
+    /* font-weight: 550; */
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.card .value {
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+
+.card .maps {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card .maps:hover {
+    color: #000;
+}
+
+
+/* Jika menggunakan Google Maps iframe di dalam card */
+.wedding .card iframe {
+    width: 100%;
+    height: 200px;       /* Sesuaikan tinggi maps agar tidak memakan tempat */
+}
+
+.card-img-top {
+        width: 100% ;
+        height: auto ;
+        max-width: 260px;
+        margin: 0 auto ;
+        display: block;
+    }
+
+/* ================================
+LOVE STORY
+================================ */
+
+.curve-text {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: -35px;
+}
+
+.curve-text text {
+    fill: white;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: 'Cinzel', serif;
+}
+
+.story .card {
+    height: 100%;
+    object-fit: cover;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.story .card-img-top {
+    margin-top: -35px;
+    width: 130px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+
+
+.story-circle {
+    margin-top: 10px;
+    position: relative;
+    top: 55%;
+    left: 5%;
+    z-index: 2;
+    width: 100%;
+    max-width: 100vh;
+    overflow: hidden;
+    padding: 20px 25px;
+
+}
+
+
+.story-circle .circle {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50%;
+    margin: 15px 0;
+
+    background-size: cover;
+    background-position: center;
+
+    flex-shrink: 0;
+    margin-left: -25px;
+}
+
+.story-overlay {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle1 {
+    margin-left: 0;
+    background-image: url('img/PAYD2391.webp');
+}
+
+.circle2 {
+    margin-left: 40px;
+    background-image: url('img/PAYD2058.webp');
+}
+
+.circle3 {
+    margin-left: 10px;
+    background-image: url('img/PAYD2305.webp');
+}
+
+.circle4 {
+    margin-left: 10px;
+    background-image: url('img/PAYD2291.webp');
+}
+
+.story-overlay .text {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: left;
+    margin-right: 10px;
+}
+
+/* ================================
+OUR MEMORIES
+================================ */
+
+
+.memories-slider-container.manual-scroll {
+    width: 100%;
+    overflow-x: auto; /* Mengaktifkan scroll manual */
+    scroll-snap-type: x proximity; /* Membuat geseran terasa magnetis */
+    -webkit-overflow-scrolling: touch; /* Biar smooth di iPhone/Safari */
+    padding: 20px 0;
+}
+
+/* Sembunyikan scrollbar agar rapi */
+.memories-slider-container.manual-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.memories-slider-track {
+    display: flex;
+    gap: 15px;
+    width: max-content;
+    padding: 0 20px; /* Padding agar foto pertama tidak terlalu mepet kiri */
+}
+
+
+.memory-item {
+    width: 250px; /* Sesuaikan ukuran */
+    height: 300px;
+    flex-shrink: 0;
+    scroll-snap-align: center; /* Foto akan otomatis 'nempel' di tengah saat digeser */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.memory-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none; /* Mencegah gambar ikut 'tertarik' saat di-drag di desktop */
+}
+
+/* ================================
+LOVE GIFT
+================================ */
+
+.love .card-img-top {
+    margin-top: 10px;
+    width: 130px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center top;
+}
+.photo-left-container {
+    width: 100%;
+    /* Gunakan Flexbox untuk kontrol posisi */
+    display: flex; 
+    /* WAJIB: Memulai semua konten dari KIRI */
+    justify-content: center; 
+    align-items: center;
+    padding: 0; /* Hapus padding agar mepet pinggir layar */
+    margin-top: auto; /* (Opsional) Sesuaikan jarak vertikal jika terlalu jauh dari foto utama */
+}
+
+/* --- CSS untuk Foto Kecil (DSC_0176) --- */
+.card-gift {
+    width: 100%;
+    max-width: 190px; /* Atur ukuran agar proporsional di iPhone */
+    height: auto;
+    
+    /* Estetik: Tumpul di sisi kanan saja agar terlihat mengalir dari kiri */
+    border-radius: 10px;
+    
+    /* Hapus margin otomatis yang bikin ke tengah */
+    margin-left: 10px !important; 
+    margin-right: auto !important; 
+    box-shadow: none !important;
+    display: block;
+    margin-bottom: 10px;
+}
+.love-text {
+    margin-top: -10px;
+    font-family:'Cinzel', 'cursive' ;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+/* ================================
+   Comment
+================================ */
+.comment-slider-container {
+    position: relative;
+    height: 350px;
+    max-width: 600px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 25px;
+    -webkit-mask-image: linear-gradient(to bottom,
+            transparent 0%,
+            black 25%,
+            /* Area transparan dari 0% sampai 25% */
+            black 100%);
+    mask-image: linear-gradient(to bottom,
+            transparent 0%,
+            black 25%,
+            black 100%);
+}
+
+/* 🔥 FADE OUT KE ATAS - COMMENT JADI TRANSPARAN */
+.comment-slider-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 20;
+}
+
+.comment-slider-track {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    /* 2x height biar loop smooth */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1px;
+    animation: slideUpInfinite 25s linear infinite;
+
+}
+
+.comment-slider-track:hover {
+    animation-play-state: paused;
+}
+
+.comment-item {
+    max-width: 100%;
+    padding: 20px 25px;
+
+    color: white;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    flex-shrink: 0;
+    will-change: opacity;
+}
+
+.comment-item strong {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 1px;
+    letter-spacing: 0.5px;
+    font-family: 'Cinzel';
+    color: #ffffff;
+    text-align: center;
+}
+
+.comment-item p {
+    font-size: 15px;
+    margin: 0;
+    line-height: 1;
+    font-weight: 1000;
+
+    text-align: center;
+    color: #ffffff;
+}
+
+.gift-img {
+    max-width: 20%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    object-position: center top;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto ;;
+}
+
+.closing {
+    position: relative;
+    /* min-height: 50vh; Tinggi minimal seukuran layar HP */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Ini yang mendorong konten ke atas & bawah */
+    /* margin-bottom: px; */
+    /* padding: 60px 20px; */
+}
+.closing-p {
+    font-family: 'Cinzel', serif; /* Font bersih */
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.regards-title {
+    font-family: 'Great Vibes', cursive; /* Font latin untuk "Hormat Kami" */
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.family-label {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.family-names {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer-names {
+    margin-top: auto; /* Memastikan elemen ini selalu di posisi paling bawah */
+    padding-bottom: 20px;
+}
+.name {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+/* FADE IN UP untuk setiap comment */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideLeftInfinite {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+        /* Geser setengah panjang track */
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .quote-ayat {
+        /* Turunkan lagi dari 220px ke sekitar 320px-350px */
+        margin-top: 280px !important; 
+        font-size: 15px !important;
+        padding: 0 30px !important;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    .quote-info {
+        margin-top: 15px !important;
+        font-size: 24px !important;
+    }
+
+    .home-section {
+        background: none !important; /* Hapus background asli */
+    }
+
+    .home-section::before {
+        content: "";
+        position: fixed; /* Pengganti fixed attachment */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('img/PAYD2176.webp') center/cover no-repeat;
+        z-index: -1; /* Letakkan di belakang konten */
+        will-change: transform; /* Optimasi performa iOS */
+    }
+    /* 1. Section Global - Mencegah background patah & bocor */
+    .home-section .top-text.typing {
+        font-size: 20px !important; /* Ukuran lebih besar agar tegas */
+        letter-spacing: 4px !important; /* Beri jarak antar huruf agar mewah */
+        margin-bottom: 20px !important;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.8); /* Shadow agar kontras dengan foto */
+    }
+
+    /* Khusus untuk teks 'Event' yang pakai Great Vibes */
+    .home-section .top-text[style*="Great Vibes"] {
+        font-size: 45px !important; /* Perbesar teks latinnya */
+        margin-top: -10px !important;
+    }
+
+    /* 2. Top Text & Judul - Menghapus paksaan margin inline */
+    .top-text {
+        font-size: 40px !important; /* Ukuran proporsional untuk deskripsi */
+        line-height: 1.6 !important;
+        margin-right: 0 !important; /* Menimpa inline style HTML */
+        margin-left: 0 !important;  /* Menimpa inline style HTML */
+        margin-bottom: 15px !important;
+        width: 100% !important;
+        text-align: center !important;
+        display: block;
+        margin-top:-40px ;
+        
+    }
+
+    /* Khusus untuk teks judul besar yang pakai class top-text */
+    h1.top-text {
+        font-size: 32px !important; 
+        margin-top: auto !important;
+        margin-bottom: auto !important;
+    }
+    h2.top-text {
+        font-size: 20px !important; 
+        margin-top: auto !important;
+    }
+    .nama {
+        font-size: 45px !important;
+        text-align: center;
+        margin-top: -10px;   
+        margin-bottom: 270px;
+    }
+
+    .tanggal, .kepada {
+        font-size: 18px !important;
+        text-align: center;
+    }
+    .wedding-text{
+        font-size: 18px !important;
+        text-align: center;
+        margin-top: -200px;
+    } 
+    /* .tanggal-home {
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-top: -300px;
+    } */
+    .tanggal-wrapper{
+        margin-top: -250px;
+    }
+    .card, .img-thumbnail {
+        border: none !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+    }
+
+    /* Jika garisnya ada di pembungkus foto */
+    .wedding-img-stack img {
+        border: none !important;
+        outline: none !important;
+    }
+    /* 3. Foto Profil & Card - Mencegah terpotong */
+    .card-img-top {
+        width: 50% !important;
+        height: auto !important;
+        max-width: 200px;
+        margin: 0 auto !important;
+        display: block;
+    }
+
+   .wedding .card {
+        width: 88% !important; /* Dari 100% kita buat jadi 88% agar ada sisa background di kiri-kanan */
+        max-width: 340px !important; /* Batas maksimal agar tidak terlalu lebar di HP bongsor */
+        margin: 20px auto !important; /* Pastikan tetap di tengah */
+        padding: 30px 20px !important; /* Ruang dalam tetap lega */
+        border-radius: 40px ; /* Membuat sudut atas melengkung cantik seperti di gambar */
+    }
+    .wedding .card iframe {
+        width: 70% !important;
+        height: 170px !important; /* Tinggi map di HP jangan terlalu besar */
+        border-radius: 15px !important; 
+        margin-top: 15px;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        border: 0;
+    }
+    .wedding .card .title {
+        font-size: 24px !important;
+    }
+
+    .wedding .card .date, 
+    .wedding .card .time {
+        font-size: 14px !important;
+    }
+    .wedding .card button, 
+    .wedding .card .btn-maps { 
+        display: block !important;
+        width: 80% !important; /* Tombol dibuat lebar tapi tidak penuh */
+        margin: 15px auto 0 auto !important; /* 'auto' kiri-kanan membuat tombol ke tengah */
+        padding: 10px !important;
+        text-align: center;
+    }
+    /* 4. Love Story - Reset zigzag & posisi */
+    .story-circle {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        margin-top: 30px !important;
+        padding: 0 !important;
+    }
+    .card .value {
+        font-size: 13px !important;
+        line-height: 1.4 !important;
+        white-space: normal !important; /* Agar teks turun ke bawah (wrap) */
+        word-wrap: break-word !important;
+    }
+    .story-overlay {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        gap: 15px !important;
+        margin-bottom: 25px !important;
+        padding: 0 5px !important;
+    }
+
+    .story-circle .circle {
+        width: 75px !important;
+        height: 75px !important;
+        flex-shrink: 0 !important;
+        margin-left: 0 !important; /* Reset zigzag */
+    }
+
+    .story-overlay .text {
+        font-size: 14px !important;
+        line-height: 1.5;
+        text-align: left !important;
+    }
+
+    /* 5. Countdown & Form */
+    .time-box span {
+        font-size: 1.6rem !important;
+    }
+
+    /* Selector untuk div form yang ada inline style-nya */
+    div[style*="max-width: 400px"] {
+        max-width: 95% !important; /* Dari 400px jadi 95% layar */
+        width: 95% !important;
+        padding: 25px 15px !important; /* Ruang dalam lebih rapat tapi pas */
+        margin: 0 auto !important;
+    }
+
+    /* Membuat form di dalamnya mengambil 100% ruang kotak tersebut */
+    form[style*="max-width: 300px"] {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    /* Memperbesar input dan textarea agar mudah di-tap jari */
+    .form-control {
+        font-size: 16px !important; /* Mencegah auto-zoom di iPhone */
+        padding: 12px !important;
+        background: rgba(255, 255, 255, 0.9) !important; /* Lebih kontras */
+        color: #000 !important;
+    }
+
+    /* Tombol kirim pesan dibuat lebar penuh */
+    button[onclick="kirimPesan()"] {
+        width: 100% !important;
+        padding: 12px !important;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .comment-slider-container {
+        max-width: 95%;
+        margin: 40px auto 20px auto !important;
+        height: 350px !important; /* Jendela tampilan */
+        overflow: hidden !important;
+        position: relative !important;
+        display: block !important;
+    }
+    .comment-slider-container {
+        display: block !important; /* Pastikan tidak tersembunyi */
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative !important; /* Ubah dari absolute ke relative agar punya ruang */
+        
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 350px !important; /* Beri tinggi pasti agar konten di dalamnya kelihatan */
+        
+        margin: 40px auto 20px auto !important;
+        overflow: hidden !important; /* Tetap hidden agar efek slide jalan */
+        z-index: 10;
+    }
+
+    .comment-slider-track {
+        /* Pastikan animasi tetap jalan */
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+        animation: scrollUpMobile 20s linear infinite !important;
+    }
+
+    .comment-item {
+        width: 100% !important;
+        padding: 15px !important;
+        background: rgba(255, 255, 255, 0.05); /* Sedikit background agar teks terbaca */
+        border-radius: 10px;
+    }
+
+   .photo-left-container {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .card-gift {
+        /* Di tablet, kita perlebar fotonya agar proporsional */
+        max-width: 320px; /* Lebih besar di tablet agar tidak ompong */
+        height: auto;
+        
+        /* Memberikan efek lengkungan yang lebih halus */
+        border-radius: 0 20px 20px 0;
+        
+        /* Tetap paksa rata kiri */
+        margin-left: 0 !important;
+        margin-right: auto !important;
+        
+        /* Tambahkan sedikit efek bayangan agar lebih tajam di layar tablet */
+        box-shadow: 8px 8px 20px rgba(0,0,0,0.15);
+    }
+    
+    /* Jika foto utama (DSC_0203) dirasa terlalu besar di tablet */
+    .card-img-top {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .love-text {
+        font-size: 22px; /* Ukuran sedang untuk tablet */
+        text-align: center !important;
+        max-width: 280px; /* Samakan dengan lebar foto di tablet */
+        margin-top: 20px;
+        padding-left: 0;
+        margin-left: 20px;
+        
+    }
+    
+    .time-box {
+        text-align: center;
+    }
+
+    .time-box span {
+        font-size: 3rem !important;
+        font-weight: bold;
+    }
+
+    .time-box p {
+        margin: 0;
+        font-size: 1.5rem !important;
+    }
+
+    .gift-img {
+        max-width: 20%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        object-position: center top;
+        display: block;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+
+    .closing {
+        position: relative;
+        /* min-height: 50vh; Tinggi minimal seukuran layar HP */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; /* Ini yang mendorong konten ke atas & bawah */
+        /* margin-bottom: px; */
+        /* padding: 60px 20px; */
+    }
+    .closing-p {
+        font-family: 'Cinzel', serif; /* Font bersih */
+        font-size: 16px;
+        line-height: 1.8;
+        max-width: 700px;
+        margin: 0 auto 40px;
+    }
+
+    .regards-title {
+        font-family: 'Great Vibes', cursive; /* Font latin untuk "Hormat Kami" */
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .family-label {
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .family-names {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .footer-names {
+        margin-top: auto; /* Memastikan elemen ini selalu di posisi paling bawah */
+        padding-bottom: 20px;
+    }
+    .name {
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .memories-slider-container.manual-scroll {
+        width: 100%;
+        overflow-x: auto; /* Mengaktifkan scroll manual */
+        scroll-snap-type: x proximity; /* Membuat geseran terasa magnetis */
+        -webkit-overflow-scrolling: touch; /* Biar smooth di iPhone/Safari */
+        padding: 20px 0;
+}
+
+/* Sembunyikan scrollbar agar rapi */
+    .memories-slider-container.manual-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    .memories-slider-track {
+        display: flex;
+        gap: 15px;
+        width: max-content;
+        padding: 0 20px; /* Padding agar foto pertama tidak terlalu mepet kiri */
+    }
+
+    .memory-item {
+        width: 200px !important; /* Sesuaikan ukuran */
+        height: 250px;
+        flex-shrink: 0;
+        scroll-snap-align: center; /* Foto akan otomatis 'nempel' di tengah saat digeser */
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .memory-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        pointer-events: none; /* Mencegah gambar ikut 'tertarik' saat di-drag di desktop */
+    }
+    @keyframes scrollUpMobile {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-50%); } 
+        /* -50% adalah angka aman jika kamu menduplikasi isi track di JS */
+    }
+}
+
+@media (max-width: 480px) {
+    .home-section {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .top-text {
+        font-size: 16px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .card-gift {
+        max-width: 180px; /* Sedikit lebih kecil di HP */
+        /* Jika ingin ada sedikit jarak dari bezel HP, ganti margin-left jadi 10px */
+        margin-left: 0 !important; 
+    }
+    
+    .photo-left-container {
+        margin-top: -30px; /* Jarak vertikal di HP */
+    }
+        .time-box {
+        text-align: center;
+    }
+
+    .time-box span {
+        font-size: 1.5rem !important;
+        font-weight: bold;
+    }
+
+    .time-box p {
+        margin: 0;
+        font-size: 1rem !important;
+    }
+    .gift-img {
+        max-width: 20%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        object-position: center top;
+        display: block;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+
+    .closing {
+        position: relative;
+        /* min-height: 50vh; Tinggi minimal seukuran layar HP */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; /* Ini yang mendorong konten ke atas & bawah */
+        /* margin-bottom: px; */
+        /* padding: 60px 20px; */
+    }
+    .closing-p {
+        font-family: 'Cinzel', serif; /* Font bersih */
+        font-size: 11px;
+        line-height: 1.8;
+        max-width: 700px;
+        margin: 0 auto 40px;
+    }
+
+    .regards-title {
+        font-family: 'Great Vibes', cursive; /* Font latin untuk "Hormat Kami" */
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .family-label {
+        font-family: 'Cinzel', serif;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .family-names {
+        font-size: 12px;
+        line-height: 1;
+    }
+    .footer-names {
+        margin-top: auto; /* Memastikan elemen ini selalu di posisi paling bawah */
+        padding-bottom: 20px;
+    }
+        .name {
+        font-family: 'Cinzel', serif;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+        .memories-slider-container.manual-scroll {
+        width: 100%;
+        overflow-x: auto; /* Mengaktifkan scroll manual */
+        scroll-snap-type: x proximity; /* Membuat geseran terasa magnetis */
+        -webkit-overflow-scrolling: touch; /* Biar smooth di iPhone/Safari */
+        padding: 20px 0;
+}
+
+/* Sembunyikan scrollbar agar rapi */
+    .memories-slider-container.manual-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    .memories-slider-track {
+        display: flex;
+        gap: 15px;
+        width: max-content;
+        padding: 0 20px; /* Padding agar foto pertama tidak terlalu mepet kiri */
+    }
+
+    .memory-item {
+        width: 150px !important; /* Sesuaikan ukuran */
+        height: 200px;
+        flex-shrink: 0;
+        scroll-snap-align: center; /* Foto akan otomatis 'nempel' di tengah saat digeser */
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .memory-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        pointer-events: none; /* Mencegah gambar ikut 'tertarik' saat di-drag di desktop */
+    }
+
+}
+
+@media (max-width: 992px) {
+    .memories-slider-container {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 380px) {
+    .nama {
+        font-size: 35px;
+    }
+
+    .story-overlay .text {
+        font-size: 12px;
+    }
+
+    .story-circle .circle {
+        width: 60px !important;
+        height: 60px !important;
+    }
+}
