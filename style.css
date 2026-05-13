@@ -731,6 +731,7 @@ LOVE GIFT
     .tanggal, .kepada {
         font-size: 18px !important;
         text-align: center;
+        margin-top: -10px;
     }
     .wedding-text{
         font-size: 18px !important;
